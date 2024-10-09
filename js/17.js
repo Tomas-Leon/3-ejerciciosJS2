@@ -7,7 +7,7 @@ let posicionVocal = -1;
 for (let i = 0; i < texto.length; i++) {
     
     if (vocales.includes(texto.charAt(i))) {
-        posicionVocal = i+1; 
+        posicionVocal = i+1; // le pongo +1 para que no arranque de 0 y el primer lugar sea 1
         break; 
     }
 }
